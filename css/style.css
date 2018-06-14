@@ -1,3 +1,9 @@
+body {
+    font-size: 14px;
+    background-color: #bdc3c7;
+    letter-spacing: 1px;
+}
+
 .overlay {
     width: 100%;
     height: 100%;
@@ -73,4 +79,10 @@
 .aboutBlurb {
     background-color: #fff;
     border-radius: 12px;
+    height: 170px;
+}
+
+.skillSection {
+    background-color: #8e44ad;
+    color: #fff;
 }
