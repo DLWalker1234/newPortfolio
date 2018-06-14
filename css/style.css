@@ -82,7 +82,41 @@ body {
     height: 170px;
 }
 
-.skillSection {
+.skillsSection {
     background-color: #8e44ad;
     color: #fff;
+    margin-left: 10px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skillTitle {
+    margin-top: 15px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color: #fff;
+    line-height: 152px;
+    font-size: 35px;
+    display: inline-block;
+}
+
+.chart .percent:after {
+    content: '%';
 }
